@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int A, B;
-    scanf("%d %d", &A, &B);
-    printf("%d",(A+B)*(A-B));
+    long long A, B, a;
+    
+    scanf("%lld %lld", &A, &B);
+    a = (A + B) * (A - B);
+    printf("%lld",a);
     return 0;
 }
